@@ -49,7 +49,7 @@ public class googleSteps {
 
     @Then("^recibe resultados relacionados con la busqueda$")
     public void recibe_resultados_relacionados_con_la_busqueda(List<String> data) {
-        Target LINK = Target.the(" link a recursos relacionados a "+data.get(0)+"").locatedBy("//div[@id='result-stats añelhaefh']");
+        Target LINK = Target.the(" link a recursos relacionados a "+data.get(0)+"").locatedBy("//div[@id='result-stats']");
 
         actor.attemptsTo(WaitUntil.the(LINK, isVisible()).forNoMoreThan(30).seconds());
 
