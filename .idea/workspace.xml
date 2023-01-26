@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e0033a9-e3ee-429e-bf1d-a2c01b69211b" name="Changes" comment="Primer commit">
+    <list default="true" id="3e0033a9-e3ee-429e-bf1d-a2c01b69211b" name="Changes" comment="Sin examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/googleQuery.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/googleQuery.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674744045443</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Prueba con error en div de Then">
+      <created>1674760573061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674760573062</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +118,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
+    <MESSAGE value="Prueba con error en div de Then" />
+    <MESSAGE value="Sin examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sin examples" />
   </component>
 </project>
