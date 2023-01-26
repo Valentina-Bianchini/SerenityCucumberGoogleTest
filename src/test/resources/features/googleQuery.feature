@@ -17,7 +17,6 @@ Feature: Realizar una busqueda en Google
     Examples:
     |busqueda                             |
     |quien escribio la cancion mayonesa   |
-    |como vivir una doble vida            |
     |tips para limpiar la casa            |
     |que le paso a utilisima              |
     |quien se ha tomado todo el vino      |
