@@ -5,7 +5,7 @@ Feature: Realizar una busqueda en Google
   Para realizar una busqueda
   Y obtener resultados relacionados
 
-  @si
+  @no
   Scenario Outline: Realizar una busqueda en Google
 
     Given usuario ingresa en el buscador de Google

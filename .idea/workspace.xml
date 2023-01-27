@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e0033a9-e3ee-429e-bf1d-a2c01b69211b" name="Changes" comment="Sin examples">
+    <list default="true" id="3e0033a9-e3ee-429e-bf1d-a2c01b69211b" name="Changes" comment="Sin error en el div">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/apiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/consultyaAPI.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/googleQuery.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/googleQuery.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674760573062</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sin examples">
+      <created>1674760980268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674760980268</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Sin error en el div">
+      <created>1674761020080</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674761020080</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +137,7 @@
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Prueba con error en div de Then" />
     <MESSAGE value="Sin examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sin examples" />
+    <MESSAGE value="Sin error en el div" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sin error en el div" />
   </component>
 </project>
