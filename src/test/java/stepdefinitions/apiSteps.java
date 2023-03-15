@@ -28,7 +28,6 @@ public class apiSteps {
         actor.whoCan(CallAnApi.at(URL));
         actor.attemptsTo(
                 Get.resource(PATH+data.get(0)).with(request -> request.header("Content-Type","application/json"))
-
         );
     }
 
@@ -38,7 +37,5 @@ public class apiSteps {
         String nombre = SerenityRest.lastResponse().jsonPath().get("data.first_name").toString();
         actor.attemptsTo(Ensure.that(nombre).isEqualTo("Janet"));
     }
-
-
-
+    
 }

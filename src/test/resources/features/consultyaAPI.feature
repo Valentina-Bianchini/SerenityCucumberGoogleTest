@@ -1,6 +1,6 @@
 Feature: Ejecutar API de consulta de personas
 
-  @si
+  @no
   Scenario Outline: Consulta de datos de usuario
 
     Given el usuario existe

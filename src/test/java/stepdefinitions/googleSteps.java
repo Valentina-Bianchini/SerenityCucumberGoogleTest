@@ -34,8 +34,7 @@ public class googleSteps {
         actor.can(BrowseTheWeb.with(driver));
         actor.wasAbleTo(Open.browserOn(main));
     }
-
-
+    
     @When("^ingresa una busqueda$")
     public void ingresa_una_busqueda(List<String> data) {
         actor.attemptsTo(WaitUntil.the(BTN_BUSCAR, isVisible()).forNoMoreThan(30).seconds());
@@ -49,7 +48,7 @@ public class googleSteps {
 
     @Then("^recibe resultados relacionados con la busqueda$")
     public void recibe_resultados_relacionados_con_la_busqueda(List<String> data) {
-        Target LINK = Target.the(" link a recursos relacionados a "+data.get(0)+"").locatedBy("//div[@id='result-stats']");
+        Target LINK = Target.the("link a recursos relacionados a "+data.get(0)+"").locatedBy("//div[@id='result-stats']");
 
         actor.attemptsTo(WaitUntil.the(LINK, isVisible()).forNoMoreThan(30).seconds());
 

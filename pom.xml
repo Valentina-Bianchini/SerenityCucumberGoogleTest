@@ -18,9 +18,9 @@
         <cucumber.version>4.2.0</cucumber.version>
         <parallel.tests>1</parallel.tests>
         <skipTests>false</skipTests>
-        <webdriver.base.url></webdriver.base.url>
-        <webdriver.driver></webdriver.driver>
-        <tags></tags>
+        <webdriver.base.url/>
+        <webdriver.driver/>
+        <tags/>
     </properties>
     <dependencies>
         <dependency>

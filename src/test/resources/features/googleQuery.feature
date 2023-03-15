@@ -5,7 +5,7 @@ Feature: Realizar una busqueda en Google
   Para realizar una busqueda
   Y obtener resultados relacionados
 
-  @no
+  @si
   Scenario Outline: Realizar una busqueda en Google
 
     Given usuario ingresa en el buscador de Google
@@ -15,8 +15,6 @@ Feature: Realizar una busqueda en Google
           |<busqueda>|
 
     Examples:
-    |busqueda                             |
-    |quien escribio la cancion mayonesa   |
-    #|tips para limpiar la casa            |
-    #|que le paso a utilisima              |
-    #|quien se ha tomado todo el vino      |
+    |busqueda                                |
+    |que es un pipeline CI Jenkins           |
+    |para que sirve un pipeline CI Jenkins   |
