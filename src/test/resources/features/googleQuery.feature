@@ -15,6 +15,6 @@ Feature: Realizar una busqueda en Google
           |<busqueda>|
 
     Examples:
-    |busqueda                                |
-    |que es un pipeline CI Jenkins           |
-    |para que sirve un pipeline CI Jenkins   |
+    |busqueda              |
+    |que es Jenkins        |
+    |por que usar Jenkins  |

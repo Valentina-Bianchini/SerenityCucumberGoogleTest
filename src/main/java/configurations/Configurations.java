@@ -15,7 +15,7 @@ public class Configurations {
     public WebDriver setup(){
         System.setProperty(TYPE_DRIVER_CHROME,PATH_DRIVER_CHROME);
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().setPosition(new Point(2000,1));
